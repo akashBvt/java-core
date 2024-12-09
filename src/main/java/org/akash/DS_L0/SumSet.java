@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class SumSet {
-    public static  Map<Integer,List<Integer>> sumSet(List<Integer> numbers){
+    public static  Map<Integer,List<Integer>> consecutiveSumSet(List<Integer> numbers){
        int index=0;
        int mapIndex =1 ;
         Map<Integer,List<Integer>> sumSet= new LinkedHashMap<>();
